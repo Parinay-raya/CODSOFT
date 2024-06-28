@@ -1,14 +1,14 @@
-1. Quiz Application
-This is a console-based quiz application. Here's how it works:
+ 1. Quiz Application
+ This is a console-based quiz application. Here's how it works:
 
-Welcome Message: The program starts with a welcome message and prompts the user to start the quiz by entering 'Y' or 'N'.
-Question Loop: If the user starts the quiz, it will loop through 10 questions, asking each one.
-Timed Questions: Each question has a 30-second time limit. If the user doesn't answer within the time, it skips to the next question.
-Score Calculation: The user's score is calculated based on the number of correct answers.
-Results Display: After the quiz, it displays a summary of correct and incorrect answers.
-Key Methods:
-askQuestion(int questionNumber, Scanner sc, int timeLimit): Asks a question and waits for user input within a time limit.
-displayResults(List<Boolean> results): Displays the results of the quiz.
+ Welcome Message: The program starts with a welcome message and prompts the user to start the quiz by entering 'Y' or 'N'.
+ Question Loop: If the user starts the quiz, it will loop through 10 questions, asking each one.
+ Timed Questions: Each question has a 30-second time limit. If the user doesn't answer within the time, it skips to the next question.
+ Score Calculation: The user's score is calculated based on the number of correct answers.
+ Results Display: After the quiz, it displays a summary of correct and incorrect answers.
+ Key Methods:
+ askQuestion(int questionNumber, Scanner sc, int timeLimit): Asks a question and waits for user input within a time limit.
+ displayResults(List<Boolean> results): Displays the results of the quiz.
 
 
 
