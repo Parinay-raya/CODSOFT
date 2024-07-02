@@ -45,3 +45,11 @@ Key Methods:
 main(String[] args): The main method to start the game and handle the game loop.
 
 
+5.Course Class: This class represents a course with attributes like course code, title, description, capacity, the number of enrolled students, and the schedule. It includes methods to enroll a student, drop a student, and check available slots.
+
+Student Class: This class represents a student with attributes like student ID, name, and a list of registered courses. It includes methods to register for a course and drop a course. When a student registers for a course, the course's enrolled count increases, and when a student drops a course, the count decreases.
+
+CourseDatabase Class: This class manages the list of courses and students. It includes methods to add courses and students to the database, list available courses, and find courses and students by their respective identifiers.
+List Courses: The program displays all available courses along with their details and the number of available slots.
+Register Course: The program allows a student to register for a course by entering their student ID and the course code. If the course has available slots, the student is registered.
+Drop Course: The program allows a student to drop a course they have registered for by entering their student ID and the course code. The course's enrolled count is decremented, and the student is removed from the course.
